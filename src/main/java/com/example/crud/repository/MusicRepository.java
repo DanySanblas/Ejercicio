@@ -1,0 +1,8 @@
+package com.example.crud.repository;  
+import org.springframework.data.repository.CrudRepository;
+
+import com.example.crud.model.Music;
+public interface MusicRepository extends CrudRepository<Music, Integer>  
+{  
+
+}  
